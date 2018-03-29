@@ -1,6 +1,6 @@
 {
-  "name": "get-nested-val",
-  "version": "1.0.1",
+  "name": "n_n",
+  "version": "1.0.2",
   "description": "Get value of an object using an array.",
   "main": "dist/main.js",
   "scripts": {
