@@ -1,24 +1,24 @@
-# get-nested-val 
+# pathly 
 
 A simple method to safely access nested values in an object.
 
 ## Installation
 
 ```js
-npm i --save-dev get-nested-val
+npm i --save-dev pathly
 ```
 
 ### Module
 
 ```js
-import getVal from 'get-nested-val';
+import getVal from 'pathly';
 ```
 
 ## Usage
 
 Once installed, it can be used in js as
 ```
-  const get = getVal.get;
+  const get = getVal;
   const result = {
     books: {
       chapters: [
