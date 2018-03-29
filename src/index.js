@@ -1,5 +1,5 @@
 const getVal =  (path, object)  => {
-  if (!Array.isArray(path) || !path.length) {
+  if (!Array.isArray(path) || path.length===0) {
     return new Error('The path entered is incorrect');
   }
   return ( object === undefined )
