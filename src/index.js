@@ -4,7 +4,7 @@ const getVal =  (path, object)  => {
   }
   return ( object === undefined )
   ?  (object) => path.reduce((obj, key) => (obj && obj[key]) ? obj[key] : null, object) 
-  : path.reduce((obj, key) => (obj && obj[key]) ? obj[key] : null, object)  
+  : path.reduce((obj, key) => (obj && obj[key]) ? obj[key] : null, object); 
 }
 
-module.exports = getVal
+module.exports = getVal;
