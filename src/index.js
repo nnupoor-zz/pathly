@@ -8,5 +8,5 @@ const get =  (path, object)  => {
 }
 
 export default {
-  get
+  getVal: get
 }
