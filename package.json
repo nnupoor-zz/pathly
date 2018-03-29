@@ -2,7 +2,7 @@
   "name": "get-val",
   "version": "1.0.0",
   "description": "Get value of an object using an array.",
-  "main": "dist/get-val.js",
+  "main": "dist/main.js",
   "scripts": {
     "build-prod": "rimraf ./dist && webpack --config ./webpack.config.js",
     "dev": "webpack --mode development",
