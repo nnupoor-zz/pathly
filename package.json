@@ -5,8 +5,8 @@
   "main": "dist/main.js",
   "scripts": {
     "build-prod": "rimraf ./dist && webpack --config ./webpack.config.js",
-    "dev": "webpack --mode development  --module-bind js=babel-loader",
-    "build": "webpack --mode production  --module-bind js=babel-loader"
+    "dev": "webpack --config ./webpack.config.js --mode development  --module-bind js=babel-loader",
+    "build": "webpack --config ./webpack.config.js --mode production  --module-bind js=babel-loader"
   },
   "author": "Neha Nupoor",
   "license": "MIT",
