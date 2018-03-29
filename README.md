@@ -1,17 +1,17 @@
-# get-val 
+# get-nested-val 
 
 A simple method to safely access nested values in an object.
 
 ## Installation
 
 ```js
-npm i --save-dev get-val
+npm i --save-dev get-nested-val
 ```
 
 ### Module
 
 ```js
-import getVal from 'get-val';
+import getVal from 'get-nested-val';
 ```
 
 ## Usage
