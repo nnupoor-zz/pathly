@@ -1,4 +1,4 @@
-const get =  (path, object)  => {
+const getVal =  (path, object)  => {
   if (!Array.isArray(path) || !path.length) {
     return new Error('The path entered is incorrect');
   }
@@ -7,6 +7,4 @@ const get =  (path, object)  => {
   : path.reduce((obj, key) => (obj && obj[key]) ? obj[key] : null, object)  
 }
 
-export default {
-  getVal: get
-}
+export default getVal
