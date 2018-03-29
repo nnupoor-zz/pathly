@@ -7,6 +7,6 @@ const get =  (path, object)  => {
   : path.reduce((obj, key) => (obj && obj[key]) ? obj[key] : null, object)  
 }
 
-module.exports = {
+export default {
   get
 }
