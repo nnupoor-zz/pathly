@@ -1,0 +1,29 @@
+{
+  "name": "get-val",
+  "version": "1.0.0",
+  "description": "Get value of an object using an array.",
+  "main": "dist/get-val.js",
+  "scripts": {
+    "build-prod": "rimraf ./dist && webpack --config ./webpack.config.js",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Neha Nupoor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnupoor/getVal"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "babel-runtime": "^6.9.2",
+    "rimraf": "^2.6.1",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-merge": "^4.1.0"
+  }
+}
