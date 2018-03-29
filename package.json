@@ -1,5 +1,5 @@
 {
-  "name": "get-val",
+  "name": "get-nested-val",
   "version": "1.0.0",
   "description": "Get value of an object using an array.",
   "main": "dist/main.js",
