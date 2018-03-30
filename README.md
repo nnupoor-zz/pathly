@@ -5,7 +5,7 @@ A simple method to safely access nested values in an object.
 ## Installation
 
 ```js
-npm i --save-dev pathly
+npm install pathly
 ```
 
 ### Module

@@ -1,6 +1,6 @@
 {
   "name": "pathly",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get value of an object using an array.",
   "main": "dist/main.js",
   "scripts": {
