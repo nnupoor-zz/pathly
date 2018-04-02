@@ -19,6 +19,7 @@ module.exports = [
       libraryTarget: 'umd',
       library: 'get-val',
       umdNamedDefine: true
-    }
+    },
+    target: 'node',
   }
 ];

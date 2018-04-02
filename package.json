@@ -1,12 +1,12 @@
 {
   "name": "pathly",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Get value of an object using an array.",
   "main": "dist/main.js",
   "scripts": {
     "build-prod": "rimraf ./dist && webpack --config ./webpack.config.js",
     "dev": "webpack --config ./webpack.config.js --mode development  --module-bind js=babel-loader",
-    "build": "webpack --config ./webpack.config.js --mode production  --module-bind js=babel-loader"
+    "build": "webpack --config ./webpack.config.js --mode production"
   },
   "author": "Neha Nupoor",
   "license": "MIT",
