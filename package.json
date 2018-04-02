@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "Get value of an object using an array.",
   "main": "dist/main.js",
+  "keywords": ["object", "utility", "server", "util", "functional", "client", "browser"],
   "scripts": {
     "build-prod": "rimraf ./dist && webpack --config ./webpack.config.js",
     "dev": "webpack --config ./webpack.config.js --mode development  --module-bind js=babel-loader",
